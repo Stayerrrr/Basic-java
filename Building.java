@@ -1,8 +1,8 @@
 public class Building {
     // Attributes
-    private String name;
-    private String address;
-    private int floors;
+     String name;
+     String address;
+     int floors;
 
     // Constructor to initialize attributes
     public Building(String name, String address, int floors) {
@@ -12,7 +12,7 @@ public class Building {
     }
 
     // Method to display data
-    public void displayData() {
+    public void tampil() {
         System.out.println("\n========================================");
         System.out.println("Building Name: " + this.name);
         System.out.println("Building Address: " + this.address);

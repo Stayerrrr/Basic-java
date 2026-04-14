@@ -25,12 +25,12 @@ public class main {
                     int floors = scanner.nextInt();
 
                     // Create the object using the input
-                    Building newBuilding = new Building(name, address, floors);
+                    Building gedung = new Building(name, address, floors);
 
                     System.out.println("Building added successfully!");
 
                     // Display details using the class method
-                    newBuilding.displayData();
+                    gedung.tampil();
                     break;
 
                 case 2:
