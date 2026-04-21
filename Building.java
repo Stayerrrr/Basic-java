@@ -10,11 +10,6 @@ public class Building {
         this.floors = floors;
     }
 
-  
-    public String getName() { return name; }
-    public String getAddress() { return address; }
-    public int getFloors() { return floors; }
-
     public void showBuilding() {
         System.out.println("Building: " + name + " | Address: " + address + " | Floors: " + floors);
     }
